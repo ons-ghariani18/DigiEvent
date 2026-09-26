@@ -60,6 +60,30 @@ Chaque service comprend un nom, une catégorie (par exemple lieu, décorateur ou
 
 Les sources sont organisées principalement dans `Pages/` et `Components/`. Les écrans repérés couvrent notamment les événements, les lieux, les décorateurs, les photographes, les réservations, les avis, les sponsors et les demandes de sponsoring. Les règles Firestore disponibles se trouvent dans `FirestoreRules/firestore.rules`.
 
+## Aperçu des interfaces
+
+Captures d'écran disponibles dans le dossier `Screenshots/` :
+
+### Connexion
+
+![Écran de connexion](Screenshots/signIn.png)
+
+### Catalogue des services
+
+![Écran du catalogue des services](Screenshots/services.png)
+
+### Catalogue des lieux
+
+![Écran du catalogue des lieux](Screenshots/places.png)
+
+### Ajout d'un lieu
+
+![Formulaire d'ajout d'un lieu](Screenshots/addplace.png)
+
+### Capture d'écran supplémentaire
+
+![Capture d'écran supplémentaire](<Screenshots/Capture d'écran 2026-09-27 010440.png>)
+
 ## Architecture
 
 Le diagramme suivant présente l'architecture logique recommandée pour organiser les fonctionnalités. Il s'agit d'une vue cible : le dépôt fourni ne permet pas de confirmer que chaque couche ou chaque flux est déjà réalisé.
