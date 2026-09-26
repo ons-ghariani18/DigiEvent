@@ -167,4 +167,4 @@ Les règles fournies déclarent notamment les collections `user`, `event`, `rese
 - Vérifier et finaliser les opérations CRUD de chaque module.
 - Mettre en place la vérification transactionnelle de disponibilité des services et des ressources pour éviter les réservations concurrentes.
 - Ajouter les modèles de données et les règles de sécurité pour les factures, les paiements et les ressources matérielles.
-- Tester les parcours de création, consultation, modification, annulation et suppression avec différents rôles d'utilisateur.
+- Tester les parcours de création, consultation, modification, annulation et suppression avec différents rôles d'utilisateur..
