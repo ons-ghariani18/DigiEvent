@@ -142,8 +142,6 @@ Ces relations devraient être représentées explicitement dans les documents Fi
 
 ## Configuration et lancement
 
-Le dépôt fourni ne contient pas de `pubspec.yaml` à sa racine. Il manque donc le manifeste Flutter nécessaire pour installer les dépendances et lancer l'application depuis cette copie. Une fois le projet Flutter complet disponible :
-
 1. Installer le SDK Flutter et configurer les plateformes ciblées (Android, iOS ou Web).
 2. Configurer un projet Firebase, enregistrer les applications correspondantes et vérifier l'initialisation Firebase dans le projet.
 3. Depuis le dossier contenant `pubspec.yaml`, récupérer les dépendances puis lancer l'application :
@@ -159,12 +157,4 @@ Les paramètres Firebase et les commandes de lancement peuvent varier selon les 
 
 Les règles fournies déclarent notamment les collections `user`, `event`, `reservation`, `avis`, `Decorator`, `Photographer`, `Place`, `sponsors`, `DemandesSponsorisations`, `musique`, `guest` et `invitation`.
 
-**Attention :** dans les règles actuelles, la lecture et la création sont autorisées sans authentification sur ces collections, tandis que les mises à jour et suppressions sont refusées. Ces règles ne fournissent donc pas les permissions nécessaires à un CRUD complet et ne doivent pas être considérées comme une configuration de production. Avant tout déploiement, limiter les accès aux utilisateurs authentifiés et autorisés, puis définir les permissions requises pour chaque opération et chaque type de donnée.
 
-## À compléter
-
-- Ajouter le manifeste `pubspec.yaml` et les fichiers nécessaires à une application Flutter exécutable, s'ils ne se trouvent pas dans une autre copie du projet.
-- Vérifier et finaliser les opérations CRUD de chaque module.
-- Mettre en place la vérification transactionnelle de disponibilité des services et des ressources pour éviter les réservations concurrentes.
-- Ajouter les modèles de données et les règles de sécurité pour les factures, les paiements et les ressources matérielles.
-- Tester les parcours de création, consultation, modification, annulation et suppression avec différents rôles d'utilisateur..
